@@ -17,7 +17,7 @@
 
 server '54.148.78.96',
   user: 'ubuntu',
-  roles: %w{web app},
+  roles: %w{web app db},
   ssh_options: {
     keys: %w(/Users/brendapraggastis/.ssh/ec2-sample-project.pem),
     forward_agent: false,
